@@ -12,21 +12,23 @@ function Header() {
     };
 
     return (
-        <div className="container">
-            <h1 style={st}>Joel Assistência Técnica</h1>
+        <header>
+            <div className="container">
+                <h1 style={st} className='text-center'>Joel Assistência Técnica</h1>
 
-            <div className="container mt-3 d-flex justify-content-center" style={i}>
-                <div>
-                    <FontAwesomeIcon icon={faWhatsapp} />
-                </div>
-                <div>
-                    <FontAwesomeIcon icon={faInstagram} />
-                </div>
-                <div>
-                    <FontAwesomeIcon icon={faFacebookF} />
-                </div>
+                <div className="container mt-2 d-flex justify-content-center" style={i}>
+                    <div>
+                        <FontAwesomeIcon icon={faWhatsapp} />
+                    </div>
+                    <div>
+                        <FontAwesomeIcon icon={faInstagram} />
+                    </div>
+                    <div>
+                        <FontAwesomeIcon icon={faFacebookF} />
+                    </div>
+                </div><hr />
             </div>
-        </div>
+        </header>
     )
 }
 

@@ -34,12 +34,12 @@ function CustomModal () {
     return (
         <div className="container mt-5">
 
-            <div className="container">
+            <div className="container d-flex justify-content-center ">
                 <div>
-                    <button className='btn btn-secondary' onClick={abrirModal1} style={stbtn}>Serviços &nbsp; <FontAwesomeIcon icon={faGears} /> </button> 
+                    <button className='btn btn-secondary mx-3' onClick={abrirModal1} style={stbtn}>Serviços &nbsp; <FontAwesomeIcon icon={faGears} /> </button> 
                 </div>
-                <div className='mt-3'>
-                    <button className='btn btn-secondary' onClick={abrirModal2} style={stbtn}>Autorizados &nbsp; <FontAwesomeIcon icon={faUserCheck} /></button>    
+                <div>
+                    <button className='btn btn-secondary mx-3' onClick={abrirModal2} style={stbtn}>Autorizados &nbsp; <FontAwesomeIcon icon={faUserCheck} /></button>    
                 </div>
             </div>
             <Modal show = {showModal} onHide = {handleClose}>
